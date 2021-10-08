@@ -4,6 +4,9 @@ body {
 }
 body {
   font-family: arial;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSoYW0K8GqgE3h4qNXjZdSF_5LDqxLNu-Bd4dyK2_YeULrohRWi0OXtfD4Jyi9JWxbPo&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main {
   margin: 5%;
@@ -12,14 +15,14 @@ body {
 .card {
   width: 20%;
   display: inline-block;
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 2px 2px 20px rgb(78, 7, 7);
   border-radius: 5px;
   margin:2%;
   grid-template-columns: repeat(2, 1fr);
   
 }
 .image img {
-  height: 20%;
+  height: 100px;
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -28,7 +31,7 @@ body {
 
 .title {
   text-align: center;
-  padding: 10px;
+  padding: 10px; 
 }
 
 h1:hover {
@@ -63,5 +66,19 @@ button{
   border-color: royalblue;
   border-radius: 25%;
 }
-  
-
+p {
+  height: 20px;
+ 
+ 
+} 
+.heading{ 
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(23, 23, 54);
+}
+h2{
+  text-align: center;
+  color: rgb(31, 31, 53);
+  text-shadow: rgb(5, 97, 97);
+}
