@@ -1,3 +1,10 @@
+hr.rounded {
+  border-top: 8px solid rgb(136, 9, 30);
+  border-radius: 5px;
+  margin: 5%;
+  
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -8,6 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .main {
   margin: 5%;
 }
@@ -22,7 +30,7 @@ body {
   
 }
 .image img {
-  height: 100px;
+  height: 200px;
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
@@ -76,9 +84,11 @@ p {
   font-weight: bold;
   font-size: 50px;
   color: rgb(23, 23, 54);
+
 }
 h2{
   text-align: center;
   color: rgb(31, 31, 53);
   text-shadow: rgb(5, 97, 97);
+  margin-top: 5%;
 }
